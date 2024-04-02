@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="menu.css" />
+    <title>Menu</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="dropdown">
+        <button class="dropdown-heading">Cold Drinks</button>
+        <div class="dropdown-content">
+          <a href="#" id="beer">Beer</a>
+          <a href="#" id="rwine">Red Wine</a>
+          <a href="#" id="wwine">White Wine</a>
+        </div>
+      </div>
+      <bdi class="dropdown">
+        <button class="dropdown-heading">Hot Drinks</button>
+        <div class="dropdown-content">
+          <a href="#" id="coffee">Black Coffee</a>
+          <a href="#" id="latte">Latte</a>
+          <a href="#" id="cappuccino">Cappuccino</a>
+        </div>
+      </bdi>
+      <div class="dropdown">
+        <button class="dropdown-heading">Soup</button>
+        <div class="dropdown-content">
+          <a href="#" id="minestone">Minestone</a>
+          <a href="#" id="tomatoe">Tomatoe Soup</a>
+          <a href="#" id="bean">Bean Soup</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropdown-heading">Main Dish</button>
+        <div class="dropdown-content">
+          <a href="#" class="fish">Fish</a>
+          <a href="#" class="fish">Ham</a>
+          <a href="#" class="fish">Meat</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropdown-heading">Dessert</button>
+        <div class="dropdown-content">
+          <a href="#" id="ChocolatePudding"> Chocolate Pudding</a>
+          <a href="#" id="IceCream">Ice-Cream</a>
+          <a href="#" id="Tiramisu">Tiramisu</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button
+          class="dropdown-heading"
+          onclick="window.location.href='index.html'"
+        >
+          Back Home
+        </button>
+      </div>
+    </div>
+    <div id="showPrice">Click on item in dropdown menu to order.</div>
+    <script src="menu.js"></script>
+  </body>
+</html>

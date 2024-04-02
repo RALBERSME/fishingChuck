@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  position: absolute;
+  color: white;
+  top: 5%;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  padding: 7.5px;
+  margin-left: 21%;
+  border-bottom: 1px solid white;
+  box-shadow: 1px 3px 0px 0px white, 2px 4px 0px 0px yellow;
+}
+.chuck {
+  position: absolute;
+  color: white;
+  top: 5%;
+  right: -150%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px yellow;
+}
+.container {
+  width: 100%;
+  height: 50vh;
+}
+.innerbox {
+}
+.jumpfish {
+  position: absolute;
+  width: 150px;
+  height: 130px;
+  top: 10%;
+  left: 60%;
+  animation: move 6000ms infinite ease-out;
+}
+.fisherman {
+  width: "500";
+  height: "900";
+  position: absolute;
+  top: 10%;
+  left: 60%;
+}
+@keyframes move {
+  0% {
+    top: 10%;
+    left: 60%;
+    opacity: 1;
+    transform: rotate(10deg);
+    z-index: 100;
+  }
+  80% {
+    opacity: 1;
+  }
+  90% {
+    top: 77%;
+    left: 15%;
+    opacity: 0.3;
+    transform: rotate(-60deg);
+    z-index: 100;
+  }
+  95% {
+    z-index: -1000;
+
+    opacity: 0;
+  }
+  100% {
+    top: 10%;
+    left: 60%;
+
+    transform: rotate(10deg);
+    z-index: 100;
+    opacity: 1;
+  }
+}
+.message {
+  position: absolute;
+  color: white;
+  top: 90%;
+  left: 60%;
+  font-size: 1rem;
+  text-shadow: 1px 1px 2px yellow;
+}
