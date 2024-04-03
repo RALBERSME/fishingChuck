@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-image: url("https://cdn.pixabay.com/photo/2016/11/23/13/48/beach-1852945_640.jpg");
+  background-color: #002233;
 }
 nav {
   position: absolute;
@@ -162,5 +162,10 @@ li {
       z-index: 100;
       opacity: 1;
     }
+  }
+  .chuck {
+    top: 150%;
+    right: 30%;
+    font-size: 1rem;
   }
 }
