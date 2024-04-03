@@ -23,6 +23,10 @@ li {
   border-bottom: 1px solid white;
   box-shadow: 1px 3px 0px 0px white, 2px 4px 0px 0px yellow;
 }
+li:hover {
+  cursor: pointer;
+  color: lightskyblue;
+}
 .chuck {
   position: absolute;
   color: white;
@@ -116,6 +120,7 @@ li {
     padding: 5px;
     margin-left: 10%;
   }
+
   .fisherman {
     width: "250";
     height: "450";
